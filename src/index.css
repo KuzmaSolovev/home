@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://raw.githubusercontent.com/Kitsumon/images/main/fonts/Montserrat-ExtraBold.ttf");
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Montserrat", "Montserrat Bold", "Montserrat ExtraBold" sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  src: local("Montserrat Bold"),
+    url("https://raw.githubusercontent.com/Kitsumon/images/main/fonts/Montserrat-Bold.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat ExtraBold";
+  src: local("Montserrat ExtraBold"),
+    url("https://raw.githubusercontent.com/Kitsumon/images/main/fonts/Montserrat-ExtraBold.ttf")
+      format("truetype");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.drop {
+  width: 40px;
+  margin-left: 20px;
+}
+@media screen and (max-width: 400px) {
+  .drop {
+    margin: 5px;
+  }
+}
+.Dropdown-control {
+  background-color: #eeeff1 !important;
+  border: none !important;
+}
